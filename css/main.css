@@ -272,6 +272,114 @@ body {
   color: #333333;
 }
 
+.site-work {
+  background-image: url("../images/work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 20px 50px 20px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.work h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.59px;
+  color: white;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.work img {
+  position: absolute;
+  right: 68px;
+  top: 40px;
+}
+.work ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.work ul li {
+  width: 433px;
+  background-color: #F8F8F2;
+  padding: 20px;
+  padding-top: 140px;
+  position: relative;
+}
+.work ul li strong {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  opacity: 0.8;
+  color: #333333;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.work ul li h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46.88px;
+  text-align: left;
+  color: #333333;
+}
+.work ul li p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #333333;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.work button {
+  padding: 16px 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+  border: 3px solid #C99B67;
+  border-radius: 100px;
+  background-color: #C99B67;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  transition: all 0.3s;
+}
+.work button:hover {
+  background-color: white;
+  color: #C99B67;
+}
+.work button:active {
+  opacity: 0.5;
+}
+
+.work__steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 966px;
+}
+
+.work__box {
+  width: 60px;
+  height: 60px;
+  background-color: #F8F8F2;
+  border: 4px solid #C99B67;
+}
+
+.work__line {
+  flex-grow: 1;
+  border-bottom: 3px dashed #C99B67;
+}
+
 .site-footer {
   background-image: url("../images/footer-bg.png");
   background-repeat: no-repeat;
